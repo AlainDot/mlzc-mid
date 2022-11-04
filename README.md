@@ -1,20 +1,41 @@
-mlzoomcamp-2022-01-affectionate-bhaskara    
-This is a Midterm project for ML Zoomcamp 2022
 <img align="right" src="media/heart.png">
+
+### mlzoomcamp-2022-01-affectionate-bhaskara    
+*This is a Midterm project for ML Zoomcamp 2022*
 
 # Heart failure clinical records
 
-### Dataset source: https://archive.ics.uci.edu/ml/datasets/Heart+failure+clinical+records 
+### Dataset source: 
+- https://archive.ics.uci.edu/ml/datasets/Heart+failure+clinical+records 
+
+### References:
+- https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-020-1023-5
 
 ### Purpose of the project is to try to predict the probability of a patient to die in certain circumstances.
 
-References:
-- https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-020-1023-5
+descripton of context
 
-#
+<hr>
+
+### In this page:
+- [Data Dictionnary](#data-dictionnary)
+
+<hr>      
+
+### In this Repository
+- [code](#code)
+- [data] 
+- [jupyter]
+- [media]
+- files
+    - [Pipfile]
+    - [Pipfile.lock] 
 
 
-### Data Dictionnary:
+<hr>
+
+### Data Dictionnary [(top)](#heart-failure-clinical-records)
+
 - **Age**  	
 Age of the patient (Years)
 
