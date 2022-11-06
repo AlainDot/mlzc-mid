@@ -1,0 +1,18 @@
+# Same as `bentoml serve <service-name>`
+service: "patient_death_risk:svc"  
+
+labels:
+    owner: alainD
+    stage: dev
+
+# all files to be loaded
+include:
+- "patient_death_risk.py"  
+
+# all package needed
+python:
+    packages:  
+    - xgboost
+    - pandas
+    - sklearn
+    - pydantic

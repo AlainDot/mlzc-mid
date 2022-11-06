@@ -4,7 +4,6 @@ import numpy as npy
 import bentoml
 from bentoml.io import JSON
 from pydantic import BaseModel
-from typing import List
 
 print('*** Import completed ***')
 
