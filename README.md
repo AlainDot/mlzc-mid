@@ -1,6 +1,6 @@
 <img align="right" src="media/heart.png">
 
-### mlzoomcamp-2022-01-affectionate-bhaskara    
+### mlzoomcamp-2022-11
 *This is a Midterm project for ML Zoomcamp 2022*
 
 # Heart failure clinical records
