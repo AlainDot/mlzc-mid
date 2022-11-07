@@ -53,7 +53,7 @@ Consecutives notebooks (Data saved/loaded using picke):
 
 - [11 Analyze all columns (features & target)](jupyter/11%20Analyze%20all%20columns%20(features%20&%20target).ipynb): 
     - data types, distribution of data, mean...
-    - categorical vs numeric features
+    - categorical vs numeric features    
 
 - [15 Validation framework](jupyter/15%20Validation%20framework.ipynb): split dataset (sklearn)
 
@@ -61,13 +61,13 @@ Consecutives notebooks (Data saved/loaded using picke):
     - Risks of death by features
     - Features importance
     - Correlation
-    - ROC AUC
+    - ROC AUC    
 
 - [17 Basic Logistic Regression - Binary classification](jupyter/17%20Basic%20Logistic%20Regression%20-%20Binary%20classification.ipynb)
     - One-Hot-Encoding
-    - Logistic regression (sklearn)  
+    - Logistic regression (sklearn)     
 
-- [20 Validation framework V2](jupyter/20%20Validation%20framework%20V2.ipynb): re-split the dataset after features adjustment 
+- [20 Validation framework V2](jupyter/20%20Validation%20framework%20V2.ipynb): re-split the dataset after features adjustment    
 
 
 - [21 Logistic Regression - Binary classification Optimization](jupyter/21%20Logistic%20Regression%20-%20Binary%20classification%20Optimization.ipynb): fine tune parameters
@@ -78,23 +78,50 @@ Consecutives notebooks (Data saved/loaded using picke):
 - [31Tree](jupyter/31Tree.ipynb): train model + tuning of
     - Decision tree Classifier
     - Random Forest
-    - Xgboost
+    - Xgboost   
 
 - [41 Model selection - final Training - deployment](jupyter/41%20Model%20selection%20-%20final%20Training%20-%20deployment.ipynb)
     - Comparison of the 4 models developed - selection of Xgboost
     - Final training & evalution ([code/train_patient_death_risk.py](code/train_patient_death_risk.py)] also provided)
-    - Build web service with pydantic - Test
-    - Save model with bentoml and produce docker file - Test
+    - Build web service with pydantic - Test 
+    - Save model with bentoml and produce docker file - Test   
 
 - [51 Cloud Deployment (using mogenius cloud)](jupyter/51%20Cloud%20Deployment%20(using%20mogenius%20cloud).ipynb)
     - Docker image pushed to DockerHub:       
         https://hub.docker.com/r/alaindut/patient_death_risk_service/tags
     - Pull:      
         ```> docker pull alaindut/patient_death_risk_service:alaindut```
-    - Implemented docker image in the Cloud at      
-        https://mogenius.com/home
+    - Implemented docker image in the Cloud at https://mogenius.com/home
     - Service runnig and tested:      
         https://alaindut-patie-prod-patient-death-risk-service-xejta4.mo5.mogenius.io/#/Service%20APIs/patient_death_risk_service__classify
+    - Test data (json)
+        - Postif: *{"age": 55.0,
+   "anaemia": "0",
+   "creatinine_phosphokinase": 835,
+   "diabetes": "0",
+   "ejection_fraction": 40,
+   "high_blood_pressure": "0",
+   "platelets": 279000.0,
+   "serum_creatinine": 0.7,
+   "serum_sodium": 140,
+   "sex": "1",
+   "smoking": "1",
+   "time": 147}*
+        - Negatif: *{"age": 45.0,
+   "anaemia": "0",
+   "creatinine_phosphokinase": 2442,
+   "diabetes": "1",
+   "ejection_fraction": 30,
+   "high_blood_pressure": "0",
+   "platelets": 334000.0,
+   "serum_creatinine": 1.1,
+   "serum_sodium": 139,
+   "sex": "1",
+   "smoking": "0",
+   "time": 129}*
+
+
+**Note**: patient_death_risk_service will return **-1** in case of error (invalid data, field missing...).
 
 
 # Data Dictionnary :
