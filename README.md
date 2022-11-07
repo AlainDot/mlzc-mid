@@ -29,7 +29,7 @@ The idea is to try to identify the main factors causing the death and develop se
 
  
 
-# Repository :
+# Repository
 - [bentoml](/bentoml/) :  model & docker
 - [code](/code/) : python programs
 - [data](/data/) : csv file from ICS
@@ -42,7 +42,7 @@ The idea is to try to identify the main factors causing the death and develop se
     - README.md (this file)
 
 
-# Project :
+# Project
 Consecutives notebooks (Data saved/loaded using picke):
 
 - [01 Installation](/jupyter/01%20installation.md): step by step installation (pipenv)
@@ -124,7 +124,7 @@ Consecutives notebooks (Data saved/loaded using picke):
 **Note**: patient_death_risk_service will return **-1** in case of error (invalid data, field missing...).
 
 
-# Data Dictionnary :
+# Data Dictionnary
 
 - **Age**     	
 Age of the patient (Years)
