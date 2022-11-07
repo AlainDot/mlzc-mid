@@ -75,7 +75,7 @@ Consecutives notebooks (Data saved/loaded using picke):
     - Feature scaling + One-hot-encoding
     - C values
 
-- [31Tree](jupyter/31Tree.ipynb): train model + tuning of
+- [31 Tree](jupyter/31Tree.ipynb): train model + tuning of
     - Decision tree Classifier
     - Random Forest
     - Xgboost   
