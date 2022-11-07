@@ -95,12 +95,12 @@ Consecutives notebooks (Data saved/loaded using picke):
     - Service runnig and tested:      
         https://alaindut-patie-prod-patient-death-risk-service-xejta4.mo5.mogenius.io/#/Service%20APIs/patient_death_risk_service__classify
     - Test data (input/output)
-    	- Postif: 
+    	- Negatif: 
     		- *{"age": 55.0, "anaemia": "0", "creatinine_phosphokinase": 835, "diabetes": "0", "ejection_fraction": 40, "high_blood_pressure": "0", "platelets": 279000.0, "serum_creatinine": 0.7, "serum_sodium": 140, "sex": "1", "smoking": "1", "time": 147}*
     		- {'prediction': [0.02292894944548607], 'interpret': 'Death NOT probable'}
-    	- Negatif: 
+    	- Positif: 
     		- *{"age": 45.0, "anaemia": "0", "creatinine_phosphokinase": 2442, "diabetes": "1", "ejection_fraction": 30, "high_blood_pressure": "0", "platelets": 334000.0, "serum_creatinine": 1.1, "serum_sodium": 139, "sex": "1", "smoking": "0", "time": 129}*
-		- {'prediction': [0.9212774634361267], 'interpret': 'Death probable'}
+    		- {'prediction': [0.9212774634361267], 'interpret': 'Death probable'}
 
 **Note**: patient_death_risk_service will return **-1** in case of error (invalid data, field missing...).
 
