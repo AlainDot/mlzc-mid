@@ -87,6 +87,7 @@ Consecutives notebooks (Data saved/loaded using picke):
     - Save model with bentoml and produce docker file - Test   
 
 - [51 Cloud Deployment (using mogenius cloud)](jupyter/51%20Cloud%20Deployment%20(using%20mogenius%20cloud).ipynb)
+    - Dependencies described in pipfiles 
     - Docker image pushed to DockerHub:       
         https://hub.docker.com/r/alaindut/patient_death_risk_service/tags
     - Pull:      
