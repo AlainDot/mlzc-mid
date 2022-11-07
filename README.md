@@ -13,7 +13,12 @@
 
 ### Purpose of the project is to try to predict the probability of a patient to die in certain circumstances.
 
-descripton of context
+Heart failures are a very common cause of death.
+
+The dataset contains records of 299 patients with heart failure. 
+Each recrod describe the conditions of the patient and indication if the failure has caused death or not.
+The idea is to try to identify the main factors causing the death and develop several models able to predict the probability of death.
+
 
 <hr>
 
