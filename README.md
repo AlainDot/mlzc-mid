@@ -94,7 +94,7 @@ Consecutives notebooks (Data saved/loaded using picke):
     - Implemented docker image in the Cloud at https://mogenius.com/home
     - Service runnig and tested:      
         https://alaindut-patie-prod-patient-death-risk-service-xejta4.mo5.mogenius.io/#/Service%20APIs/patient_death_risk_service__classify
-    - Test data (json)
+    - Test data (copy {json} part)
         - Postif: *{"age": 55.0,
    "anaemia": "0",
    "creatinine_phosphokinase": 835,
